@@ -4,6 +4,7 @@ using PhotoAlbum.Models;
 
 namespace PhotoAlbum.Controllers
 {
+    //This is the home controller class
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
