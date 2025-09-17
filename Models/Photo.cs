@@ -13,6 +13,11 @@
 
         public DateTime CreateDate { get; set; }
 
+        //Foreign key 
+        public int CategoryId { get; set; }
+
+        //Navigation property
+        public Category Category { get; set; }
 
     }
 }
